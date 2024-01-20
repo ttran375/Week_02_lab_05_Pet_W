@@ -50,16 +50,16 @@ Create the following class
 
 ## Description of members
 
-##### Fields
+### Fields
 
 > There are no fields.
 
-##### Properties
+### Properties
 
 1. The properties are self-explanatory. The getter is public and the
     setter is mostly absent.
 
-##### Constructor
+### Constructor
 
 1. **<span class="mark">public</span>
     Pet(<span class="mark">string</span> name,
@@ -72,7 +72,7 @@ Create the following class
 Remember the ToString() method is needed to produce a sensible output on
 the screen
 
-##### Methods
+### Methods
 
 1. **<span class="mark">public override string ToString()</span>** –
     This method returns a string fully describing this object.
