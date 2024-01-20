@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Pet pet1 = new("Rex", 5, "A playful dog");
-            Pet pet2 = new("Mittens", 3, "A lazy cat");
-            Pet pet3 = new("Bubbles", 2, "A colorful fish");
-            Pet pet4 = new("Tweety", 1, "A chirpy bird");
+            Pet pet1 = new Pet("Rex", 5, "A playful dog");
+            Pet pet2 = new Pet("Mittens", 3, "A lazy cat");
+            Pet pet3 = new Pet("Bubbles", 2, "A colorful fish");
+            Pet pet4 = new Pet("Tweety", 1, "A chirpy bird");
             List<Pet> pets = new() { pet1, pet2, pet3, pet4 };
 
             pet1.SetOwner("John");
