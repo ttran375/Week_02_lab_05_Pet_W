@@ -1,7 +1,7 @@
 {
-  "customizations":{
-    "vscode":{
-      "extensions":[
+  "customizations": {
+    "vscode": {
+      "extensions": [
         "ms-vscode-remote.remote-containers",
         "GitHub.copilot",
         "GitHub.copilot-chat",
@@ -16,5 +16,6 @@
         "streetsidesoftware.code-spell-checker"
       ]
     }
-  }
+  },
+  "postCreateCommand": "docker pull github/super-linter:latest"
 }
