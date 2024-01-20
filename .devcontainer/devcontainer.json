@@ -1,17 +1,23 @@
 {
   "image": "github/super-linter:latest",
-  "extensions": [
-    "ms-vscode-remote.remote-containers",
-    "GitHub.copilot",
-    "GitHub.copilot-chat",
-    "GitHub.codespaces",
-    "vsls-contrib.gitdoc",
-    "ms-dotnettools.csdevkit",
-    "kreativ-software.csharpextensions",
-    "jorgeserrano.vscode-csharp-snippets",
-    "vain0x.csharp-gen-ctor",
-    "afmicc.GetterAndSetterGenerator",
-    "EditorConfig.EditorConfig",
-    "streetsidesoftware.code-spell-checker"
-  ]
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.codespaces",
+        "vsls-contrib.gitdoc",
+        "ms-dotnettools.csdevkit",
+        "kreativ-software.csharpextensions",
+        "jorgeserrano.vscode-csharp-snippets",
+        "vain0x.csharp-gen-ctor",
+        "afmicc.GetterAndSetterGenerator",
+        "EditorConfig.EditorConfig",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "postAttachCommand": "git pull --all && npm start"
 }
