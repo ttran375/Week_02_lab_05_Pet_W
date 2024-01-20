@@ -1,5 +1,4 @@
 {
-  "image": "github/super-linter:latest",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -17,7 +16,5 @@
         "streetsidesoftware.code-spell-checker"
       ]
     }
-  },
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
-  "postAttachCommand": "git pull --all && npm start"
+  }
 }
