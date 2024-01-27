@@ -1,8 +1,8 @@
 # Creating a Pet class
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/Week_02_lab_05_Pet_W)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/comp123-lab5)
 
-[![Lint](https://github.com/ttran375/Week_02_lab_05_Pet_W/actions/workflows/main.yml/badge.svg)](https://github.com/ttran375/Week_02_lab_05_Pet_W/actions/workflows/main.yml)
+[![Lint](https://github.com/ttran375/comp123-lab5/actions/workflows/main.yml/badge.svg)](https://github.com/ttran375/comp123-lab5/actions/workflows/main.yml)
 
 Create the following class
 
